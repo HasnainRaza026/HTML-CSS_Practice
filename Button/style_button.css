@@ -1,0 +1,80 @@
+#uber_{
+  background-color: black;
+  border: none;
+  color: white;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#amazon_{
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 36px;
+  width: 150px;
+  border-radius: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+#github_{
+  background-color: rgb(46, 164, 79);
+  border: none;
+  height: 36px;
+  width: 100px;
+  border-radius: 6px; /* to get rounded corners set the value half of the button heights */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#started_{
+  background-color: rgb(121, 82, 179);
+  border: none;
+  height: 36px;
+  width: 110px;
+  border-radius: 3px; /* to get rounded corners set the value half of the button heights */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+#download_{
+  background-color: white;
+  border-width: 1px;
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  height: 36px;
+  width: 110px;
+  border-radius: 3px; /* to get rounded corners set the value half of the button heights */
+  color: rgb(108, 117, 125);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#apply_{
+  background-color: rgb(10, 102, 194);
+  border: none;
+  height: 36px;
+  width: 210px;
+  border-radius: 18px; /* to get rounded corners set the value half of the button heights */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+#save_{
+  background-color: transparent;
+  border-width: 1px;
+  border-color: rgb(10, 102, 194);
+  height: 36px;
+  width: 70px;
+  border-radius: 18px; /* to get rounded corners set the value half of the button heights */
+  color: rgb(10, 102, 194);
+  font-weight: bolder;
+  cursor: pointer;
+}
