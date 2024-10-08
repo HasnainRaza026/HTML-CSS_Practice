@@ -7,6 +7,15 @@
     color: rgb(0, 0, 0);
     font-weight: bolder;
     cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+#cart_:hover{
+    background-color: rgb(255, 196, 0)
+}
+
+#cart_:active{
+    opacity: 0.8;
 }
 
 #buy_{
@@ -18,8 +27,25 @@
     color: rgb(0, 0, 0);
     font-weight: bolder;
     cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+#buy_:hover{
+    background-color: rgb(253, 152, 0);
+}
+
+#buy_:active{
+    opacity: 0.8;
 }
 
 #stock_{
-    color: rgb(0, 118, 0);
+    color: rgb(11, 138, 11);
+}
+
+a{
+    color: rgb(1, 161, 253);
+}
+
+a:hover{
+    color:blue
 }
