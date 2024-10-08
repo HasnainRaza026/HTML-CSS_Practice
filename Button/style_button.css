@@ -2,11 +2,11 @@
   background-color: black;
   border: none;
   color: white;
-  height: 36px;
-  width: 105px;
+  padding: 9px 16px;
   border-radius: 2px;
   cursor: pointer;
   transition: opacity 0.15s;
+  vertical-align: top;
 }
 
 #uber_:hover{
@@ -16,13 +16,13 @@
 #amazon_{
   background-color: rgb(255, 216, 20);
   border: none;
-  height: 36px;
-  width: 150px;
+  padding: 9px 16px;
   border-radius: 18px;
   color: rgb(0, 0, 0);
   font-weight: bolder;
   cursor: pointer;
   transition: background-color 0.15s;
+  vertical-align: top;
 }
 
 #amazon_:hover{
@@ -32,13 +32,13 @@
 #github_{
   background-color: rgb(46, 164, 79);
   border: none;
-  height: 36px;
-  width: 100px;
+  padding: 9px 16px;
   border-radius: 6px; /* to get rounded corners set the value half of the button heights */
   color: white;
   font-weight: bold;
   cursor: pointer;
   transition: box-shadow 0.15s;
+  vertical-align: top;
 }
 
 #github_:hover{
@@ -48,14 +48,14 @@
 #started_{
   background-color: rgb(121, 82, 179);
   border: none;
-  height: 36px;
-  width: 110px;
+  padding: 9px 16px;
   border-radius: 3px; /* to get rounded corners set the value half of the button heights */
   color: white;
   font-weight: bold;
   cursor: pointer;
   margin-right: 8px;
   transition: background-color 0.15s; /* good transition sec for button is 0.15s */
+  vertical-align: top;
 }
 
 #started_:hover{
@@ -67,13 +67,13 @@
   border-width: 1px;
   border-color: rgb(108, 117, 125);
   border-style: solid;
-  height: 36px;
-  width: 110px;
+  padding: 9px 16px;
   border-radius: 3px; /* to get rounded corners set the value half of the button heights */
   color: rgb(108, 117, 125);
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.15s, color 0.15s;
+  vertical-align: top;
 }
 
 #download_:hover{
@@ -84,14 +84,14 @@
 #apply_{
   background-color: rgb(10, 102, 194);
   border: none;
-  height: 36px;
-  width: 210px;
+  padding: 9px 16px;
   border-radius: 18px; /* to get rounded corners set the value half of the button heights */
   color: white;
   font-weight: bold;
   cursor: pointer;
   margin-right: 8px;
   transition: background-color 0.15s;
+  vertical-align: top;
 }
 
 #apply_:hover{
@@ -102,16 +102,17 @@
   background-color: transparent;
   border-width: 1px;
   border-color: rgb(10, 102, 194);
-  height: 36px;
-  width: 70px;
+  padding: 9px 16px;
   border-radius: 18px; /* to get rounded corners set the value half of the button heights */
   color: rgb(10, 102, 194);
   font-weight: bolder;
   cursor: pointer;
-  transition: background-color 0.15s, border-width 0.1s;
+  transition: background-color 0.15s, border-width 0.1s, padding 0.1s;
+  vertical-align: top;
 }
 
 #save_:hover{
   background-color: rgb(223, 240, 255);
-  border-width: 2px
+  border-width: 2px;
+  padding: 8px 15px;
 }

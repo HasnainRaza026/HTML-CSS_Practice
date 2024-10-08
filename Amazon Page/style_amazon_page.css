@@ -1,8 +1,7 @@
 #cart_{
     background-color: rgb(255, 216, 20);
     border: none;
-    height: 36px;
-    width: 120px;
+    padding: 9px 16px;
     border-radius: 18px;
     color: rgb(0, 0, 0);
     font-weight: bolder;
@@ -21,8 +20,7 @@
 #buy_{
     background-color: rgb(255, 164, 28);
     border: none;
-    height: 36px;
-    width: 120px;
+    padding: 9px 16px;
     border-radius: 18px;
     color: rgb(0, 0, 0);
     font-weight: bolder;
