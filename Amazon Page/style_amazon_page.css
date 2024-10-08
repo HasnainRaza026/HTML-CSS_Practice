@@ -1,0 +1,25 @@
+#cart_{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 36px;
+    width: 120px;
+    border-radius: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#buy_{
+    background-color: rgb(255, 164, 28);
+    border: none;
+    height: 36px;
+    width: 120px;
+    border-radius: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#stock_{
+    color: rgb(0, 118, 0);
+}
