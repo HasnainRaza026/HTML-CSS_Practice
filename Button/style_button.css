@@ -6,6 +6,11 @@
   width: 105px;
   border-radius: 2px;
   cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+#uber_:hover{
+  opacity: 0.8;
 }
 
 #amazon_{
@@ -17,6 +22,11 @@
   color: rgb(0, 0, 0);
   font-weight: bolder;
   cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+#amazon_:hover{
+  background-color: rgb(255, 196, 0)
 }
 
 #github_{
@@ -28,6 +38,11 @@
   color: white;
   font-weight: bold;
   cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+#github_:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
 #started_{
@@ -40,6 +55,11 @@
   font-weight: bold;
   cursor: pointer;
   margin-right: 8px;
+  transition: background-color 0.15s; /* good transition sec for button is 0.15s */
+}
+
+#started_:hover{
+  background-color: rgb(100, 68, 148)
 }
 
 #download_{
@@ -53,6 +73,12 @@
   color: rgb(108, 117, 125);
   font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+#download_:hover{
+  background-color: rgb(108, 117, 125);
+  color: white;
 }
 
 #apply_{
@@ -65,6 +91,11 @@
   font-weight: bold;
   cursor: pointer;
   margin-right: 8px;
+  transition: background-color 0.15s;
+}
+
+#apply_:hover{
+  background-color: rgb(8, 87, 167)
 }
 
 #save_{
@@ -77,4 +108,10 @@
   color: rgb(10, 102, 194);
   font-weight: bolder;
   cursor: pointer;
+  transition: background-color 0.15s, border-width 0.1s;
+}
+
+#save_:hover{
+  background-color: rgb(223, 240, 255);
+  border-width: 2px
 }
