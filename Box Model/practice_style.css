@@ -1,0 +1,50 @@
+.heading{
+    margin-bottom: 10px;
+}
+
+.pages{
+    margin-right: 9px;
+}
+
+button.pages{
+    padding: 8px;
+}
+
+button.stretch{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 9px 14px;
+    transition: padding 0.5s;
+}
+
+button.stretch:hover{
+    padding: 18px 28px;
+}
+
+button.shadow{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 9px 14px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    transition: padding 0.5s;
+}
+
+button.shadow:active{
+    margin: 2px 0px 0px 2px;
+    box-shadow: none;
+}
+
+button.num{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 9px 14px;
+    transition: padding 0.5s;
+    margin-right: 8px;
+}
+
+button.num:hover{
+    padding: 9px 28px;
+}
