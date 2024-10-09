@@ -1,0 +1,179 @@
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tahoma{
+    font-family: Tahoma;
+    margin-bottom: 30px;
+}
+
+.deal{
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.sales{
+    font-family: Arial;
+    font-style: italic;
+    color: rgb(196, 51, 51);
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.html{
+    font-family: Verdana;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.pro{
+    font-family: Verdana;
+    font-size: 18px;
+    color: rgb(151, 151, 151);
+    margin-bottom: 20px;
+}
+
+.dev{
+    font-family: Verdana;
+    font-size: 18px;
+    width: 330px;
+    margin-bottom: 20px;
+}
+
+.started{
+    background-color: rgb(56, 124, 56);
+    border: none;
+    padding: 9px 16px;
+    border-radius: 5px; /* to get rounded corners set the value half of the button heights */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s; /* good transition sec for button is 0.15s */
+    vertical-align: top;
+    margin-bottom: 30px;
+  }
+
+.shop{
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 14px;
+  }
+
+.apple{
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 14px;
+}
+
+.learn{
+    text-align: center;
+    font-family: Arial;
+    color: rgb(76, 127, 192);
+    margin-bottom: 30px;
+}
+
+.new{
+    text-align: center;
+    font-family: Arial;
+    color: rgb(196, 51, 51);
+    margin-bottom: 6px;
+}
+
+.mac{
+    text-align: center;
+    font-family: Arial;
+    font-size: 28px; 
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.sup{
+    text-align: center;
+    font-family: Arial;
+    font-size: 50px; 
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.from{
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 14px;
+}
+
+.buy{
+    display: block;           /* Makes the button behave like a block-level element */
+            margin: 0 auto;
+    font-family: Arial;
+    background-color: rgb(36, 106, 197);
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 18px;
+    margin-bottom: 30px;
+}
+
+.nm{
+    font-family: Arial;
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+
+.nm span{
+    font-family: Arial;
+    font-size: 15px;
+    color: rgb(92, 91, 91);
+}
+
+.rate{
+    font-family: Arial;
+    color: rgb(17, 87, 17);
+    margin-bottom: 6px;
+}
+
+.after{
+    font-family: Arial;
+    color: rgb(92, 91, 91);
+    margin-bottom: 30px;
+}
+
+.after span{
+    font-family: Arial;
+    color: rgb(204, 4, 4);
+}
+
+.code{
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.code span{
+    font-weight: normal;
+    color: rgb(102, 102, 102);
+}
+
+.webdev{
+    font-family: Arial;
+    margin-bottom: 16px;
+}
+
+.here{
+    font-family: Arial;
+    margin-bottom: 100px;
+}
+
+.here span{
+    color: rgb(63, 154, 207);
+}
