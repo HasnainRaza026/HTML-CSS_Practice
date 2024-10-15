@@ -1,0 +1,204 @@
+html{
+    font-family: Roboto, Arial, sans-serif;
+    margin-bottom: 100px;
+}
+
+div, h2, p, img, input{
+    margin: 0;
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+.yt{
+    background-color: rgb(30, 30, 30);
+    width: 360px;
+}
+
+.yt .heading{
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px 0px 0px 10px;
+}
+
+.yt p{
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(130, 130, 130);
+    padding: 0px 0px 15px 10px;
+}
+
+.tt{
+    width: 410px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 30px 0px 10px 0px;
+}
+
+.animal{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    vertical-align: top;
+    margin: 10px 0px 10px 10px
+  }
+
+  .twitter{
+    font-size: 17px;
+    vertical-align: top;
+    border: none;
+    padding: 10px 0px;
+    margin: 16px 0px 10px 5px
+  }
+
+  .tweet{
+    background-color: rgb(67, 136, 207);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 50px;
+    margin: 18px 0px 10px 25px;
+  }
+
+  .cat{
+    width: 150px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+  }
+
+  .cat1{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: left;
+  }
+
+  .cat .name{
+    font-weight: bold;
+    margin: 5px 0px 0px 8px;
+  }
+
+  .cat .friends{
+    font-size: 13px;
+    margin: 2px 0px 0px 8px;
+    color: rgb(80, 78, 78);
+  }
+
+  .cat button{
+    padding: 7px 13px;
+    background-color: rgb(46, 94, 186);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px 0px 8px 8px;
+  }
+
+  .c1{
+    display: inline-block;
+    width: 150px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+  }
+
+  .cat2{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: left;
+  }
+
+  .c1 .name{
+    font-weight: bold;
+    margin: 5px 0px 0px 8px;
+  }
+
+  .c1 .friends{
+    font-size: 13px;
+    margin: 2px 0px 0px 8px;
+    color: rgb(80, 78, 78);
+  }
+
+  .c1 button{
+    padding: 7px 13px;
+    background-color: rgb(46, 94, 186);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px 0px 8px 8px;
+  }
+
+
+  .c2{
+    display: inline-block;
+    width: 150px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-left: 10px;
+
+  }
+
+  .cat3{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: left;
+  }
+
+  .c2 .name{
+    font-weight: bold;
+    margin: 5px 0px 0px 8px;
+  }
+
+  .c2 .friends{
+    font-size: 13px;
+    margin: 2px 0px 0px 8px;
+    color: rgb(80, 78, 78);
+  }
+
+  .c2 button{
+    padding: 7px 13px;
+    background-color: rgb(46, 94, 186);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px 0px 8px 8px;
+  }
+
+
+  .c3{
+    display: inline-block;
+    width: 150px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-left: 10px;
+
+  }
+
+  .cat4{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: left;
+  }
+
+  .c3 .name{
+    font-weight: bold;
+    margin: 5px 0px 0px 8px;
+  }
+
+  .c3 .friends{
+    font-size: 13px;
+    margin: 2px 0px 0px 8px;
+    color: rgb(80, 78, 78);
+  }
+
+  .c3 button{
+    padding: 7px 13px;
+    background-color: rgb(46, 94, 186);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px 0px 8px 8px;
+  }
