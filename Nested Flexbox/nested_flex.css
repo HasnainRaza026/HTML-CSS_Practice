@@ -1,0 +1,150 @@
+html{
+    font-family: Roboto, Arial, sans-serif;
+}
+
+div, p, img, body, span{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    margin: 30px 0px;
+}
+
+body{
+    margin-bottom: 300px;
+}
+
+/* ------------------------------------------------- */
+
+.main_all, .main{
+    max-width: 355px;
+    min-width: 300px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    padding: 8px 15px;
+    margin: 10px;
+}
+
+.title_inbox{
+    color: rgb(115, 115, 115);
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.content, .nameANDtime{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    margin-bottom: 20px;
+}
+
+.profile_pic img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 25px;
+    margin-right: 8px;
+}
+
+.text{
+    flex: 1;
+}
+
+.nameANDtime{
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.name{
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.time{
+    color: rgb(122, 122, 122);
+    font-size: 13px;
+}
+
+.title_msg{
+    font-weight: 700;
+    font-size: 14.25px;
+    margin-bottom: 4px;
+}
+
+.msg{
+    color: rgb(122, 122, 122);
+    font-size: 13.25px;
+}
+
+
+/* -------------------------------------------- */
+
+.main_tweet{
+    min-width: 390px;
+    padding: 0px 15px 10px 10px
+}
+
+.tweet_content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tweet_img img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 8px;
+}
+
+.tweet_text{
+    margin-top: 10px;
+    flex: 1;
+}
+
+.tweet_name{
+    font-weight: 700;
+}
+
+.tweet_name span{
+    font-weight: 500;
+    color: gray;
+}
+
+.tweet_yt{
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    height: 95px;
+    margin-left: 58px;
+}
+
+.tweet__yt_img{
+    background-color: rgb(211, 211, 211);
+    width: 95px;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.tweet_yt_text{
+    border: 1px solid rgb(211, 211, 211);
+    width: 212px;
+    height: 94px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+.tweet_yt_dot_com{
+    color: gray;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
