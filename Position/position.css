@@ -1,0 +1,148 @@
+html{
+    font-family: Roboto, Arial, sans-serif;
+}
+
+div, p, img, body, span{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    margin: 30px 0px;
+}
+
+body{
+    margin-bottom: 300px;
+    
+}
+
+
+
+/* ----------------------------------------- */
+
+.right-bar{
+    background-color: green;
+    color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modle{
+    background-color: white;
+    padding: 0px 300px 20px 20px;
+    border-radius: 8px;
+}
+
+
+/* --------------------------------------- */
+
+.main_one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    position: fixed;
+    top: 0;
+    left: 0;    
+    right: 0;
+
+    background-color: aquamarine;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.img img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 20px;
+    margin: 5px 10px 5px 20px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.add-button button{
+    padding: 8px 10px;
+    background-color: rgb(56, 114, 219);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}   
+
+.msg-button button{
+    padding: 8px 10px;
+    background-color: rgb(228, 229, 234);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 20px 0px 5px;
+}
+
+/* ----------------------------------------------- */
+
+.im img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+.images{
+    background-color: #1a1c1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 75px;
+}
+
+.text{
+    background-color: #242629;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 75px;
+    width: 180px;
+
+    padding: 20px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.chennel{
+    color: gray;
+    font-size: 17px;
+    margin-top: 10px;
+}
