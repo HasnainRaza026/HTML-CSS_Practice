@@ -1,0 +1,43 @@
+html{
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body{
+    height: 3000px;
+}
+
+.add{
+    background-color: gray;
+    width: 320px;
+    height: 180px;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+
+.relv{
+    position: relative;
+    width: 320px;
+    height: 180px;
+}
+
+.cancle{
+    font-size: 14px;
+    background-color: black;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 500px;
+}
+
+.time{
+    font-size: 14px;
+    background-color: black;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: white;
+    padding: 4px;
+}
